@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.4s ease;
+    z-index: 1000;
+}
+
+nav.sticky {
+    padding: 15px 20px;
+    background: #4070f4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* sticky navbar */
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+/* Change to the color when scrolled here*/
+nav.scrolled {
+    background-color: #000000;
+
+}
+
+/* sticky navbar end */
+nav .nav-content {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fcfcfc;
+}
+
+nav.sticky .logo a {
+    color: #fff;
+}
+
+.nav-content .nav-links {
+    display: flex;
+}
+
+.nav-content .nav-links li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a {
+    color: #ffffff;
+}
+
+.nav-links li a:hover {
+    color: #4070f4;
+}
+
+nav.sticky .nav-links li a {
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
+    color: #0E2431;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        right: -100%;
+        background: #4070f4;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.5s ease;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li {
+        margin: 16px 0;
+    }
+
+    .nav-links li a {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .menu-icon i {
+        font-size: 28px;
+        color: #4070f4;
+    }
+
+    nav.sticky .menu-icon i {
+        color: #fff;
+    }
+}
+
+/* Style for the menu icon */
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+
+.nav-links.active {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+.nx {
+    width: 150px;
+    height: 40px;
+    background-color: #f5593d;
+    border-color: #f5593d;
+    color: #fff;
+    opacity: 1;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .5rem 18px;
+    /* line-height: 1.75; */
+    margin-right: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 150ms linear;
+}
+
+.navbar .btn {
+    margin: 15px 3px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 766px) {
+
+    .nav-button,
+    .nx {
+        margin-top: 20px;
+    }
+}
+
+/* title start  */
+.title-brand {
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.moving-clouds {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 250.625em;
+    height: 43.75em;
+    -webkit-animation: 80s linear infinite cloudLoop;
+    animation: 80s linear infinite cloudLoop;
+}
+
+/* background image here */
+/* Home Section */
+.home {
+    height: 100vh;
+    width: 100%;
+    background: url('./assets/background-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Content inside the home section */
+.home .content {
+    color: white;
+    padding: 20px;
+}
+
+
+.home h1 {
+    font-size: 9vw;
+    margin: 0;
+}
+
+.home p {
+    font-size: 2.5vw;
+    margin-top: 10px;
+    max-width: 80%;
+}
+
+
+@media (max-width: 768px) {
+    .home h1 {
+        font-size: 7vw;
+    }
+
+    .home p {
+        font-size: 4vw;
+    }
+}
+
+/* background image end */
+
+.section-buttons {
+    background-color: aqua;
+}

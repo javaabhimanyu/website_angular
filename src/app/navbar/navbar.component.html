@@ -1,0 +1,31 @@
+<nav [ngClass]="{'scrolled': isScrolled}">
+    <div class="nav-content">
+        <div class="logo">
+            <a href="#">Paper Kit 2 Angular</a>
+        </div>
+        <div class="menu-icon" (click)="toggleNavbar()">
+            <i class="fa-solid" [ngClass]="isNavbarOpen ? 'fa-times' : 'fa-bars'"></i>
+        </div>
+        <ul class="nav-links" [ngClass]="isNavbarOpen ? 'active' : ''">
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://github.com/javaabhimanyu"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i> Documentation</a></li>
+            <button type="button" class="btn btn-primary nx">Upgrade to Pro</button>
+        </ul>
+    </div>
+</nav>
+<section class="home">
+    <div class="container text-center content">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h1 class="title">Paper Kit 2 Angular</h1>
+                <p class="description">Your Subtitle or Description Here.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>

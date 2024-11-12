@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+.body {
+    background-color: #000;
+}
+
+.navigation-example {
+    background-image: url('./image/front-view-black-luxury-sedan-road.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+
+}
+
+/* menu start here */
+.tim-title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+}
+
+.navbar {
+    border: 0;
+    font-size: 14px;
+    transition: all .4s;
+    -webkit-transition: .4s;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .15);
+}
+
+.bg-primary {
+    background-color: #6dd3d6 !important;
+}
+
+.navbar-transparent .navbar-brand,
+[class*=bg] .navbar-brand {
+    color: #fff;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.navbar .navbar-brand {
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 20px 15px;
+    font-size: 14px;
+    /* color: #66615b; */
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn),
+[class*=bg] .navbar-nav .nav-item .nav-link:not(.btn) {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    line-height: 1.6;
+    margin: 15px 0;
+    padding: 10px 15px;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* color: #66615b; */
+}
+
+.navbar.navbar-transparent {
+    padding-top: 25px;
+}
+
+.navbar-transparent {
+    background: 0 0 !important;
+    border-bottom: 1px solid transparent;
+    box-shadow: none;
+}
+
+.navbar {
+    border: 0;
+    font-size: 14px;
+    transition: all .4s;
+    -webkit-transition: .4s;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .15);
+}
+
+/* processbar here start */
+.progress-bar {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.progressbar {
+    padding: 9rem;
+}
+
+/* Custom CSS to style carousel */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 15px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50%;
+}
+
+.slides {
+    padding: 21rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+icon[_ngcontent-ng-c4116509703],
+.carousel-control-next-icon[_ngcontent-ng-c4116509703] {
+    background-color: black;
+    border-radius: 22px;
+}
+
+.carousel-control-prev-icon[_ngcontent-ng-c4116509703],
+.carousel-control-next-icon[_ngcontent-ng-c4116509703] {
+    background-color: black;
+    border-radius: 22px;
+}
+
+.carousel-indicators[_ngcontent-ng-c2989093108] {
+    bottom: 8px;
+}
+
+/* ------new here---------- */
+.section-dark {
+    background-color: #000;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.section-dark .title{
+    color: #fff !important;
+}
+
+.section-dark .icons-container {
+    color: #fff;
+}
+.section-dark .description{
+    color: #fff !important;
+}
+
+.section-nucleo-icons .icons-container {
+    position: relative;
+    max-width: 450px;
+    height: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+.section{
+    padding-top: 2rem;
+}
+.section-fa-circle-xmark .icons-container i:nth-child(1) {
+    top: 5%;
+    left: 7%;
+}
+.section-nucleo-icons .icons-container i {
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nc-icon {
+    display: inline-block;
+    font: 14px / 1 nucleo-icons;
+    font-size: inherit;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

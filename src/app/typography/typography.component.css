@@ -1,0 +1,193 @@
+.container {
+    color: #66615b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+
+.tim-title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+}
+
+.typography-line .note {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.typography-line {
+    padding-left: 180px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+
+.section {
+    padding: 70px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.h1 {
+    font-size: 3.6em;
+}
+
+.h1 {
+    margin: 30px 0 0;
+}
+
+.h2 {
+    font-size: 2.8em;
+}
+
+.h2 {
+    margin: 30px 0 0;
+}
+
+.h3 {
+    font-size: 1.825em;
+    line-height: 1.4;
+    margin: 20px 0 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.h4 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+
+.h4 {
+    margin: 30px 0 0;
+}
+
+.h5 {
+    font-size: 1.35em;
+    line-height: 1.4em;
+}
+
+.brand,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.navbar,
+.td-name,
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+select,
+td,
+textarea {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.typography-line .note {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+.typography-line h6 {
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+.blockquote {
+    border-left: 0;
+    border-bottom: 1px solid #ccc5b9;
+    border-top: 1px solid #ccc5b9;
+    font-weight: 300;
+    margin: 15px 0 10px;
+    text-align: center;
+}
+
+.blockquote {
+    font-size: 1.25rem;
+}
+.blockquote-footer {
+   margin-top: 2px;
+    font-size: .875em;
+    color: #6c757d;
+}
+.notes p{
+    font-size: 3rem;
+}
+.round img{
+    border-radius: 9rem;
+}
+.img-rounded {
+    border-radius: 12px;
+    transition: opacity .5s ease 0s;
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.img-details img {
+    width: 50px;
+}
+.img-no-padding {
+    padding: 0;
+}
+.img-circle {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 50% !important;
+    max-width: 100%;
+}
